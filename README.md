@@ -39,9 +39,8 @@ A versão web do projeto Gympoint representa a visão da academia, ou seja, toda
 
 Antes de iniciar a parte web, **adicione as seguintes funcionalidades no back-end** da aplicação:
 
-1. Adicione um campo na listagem de alunos de "Matrícula ativa" que retorna um boolean `true/false` indicando se o aluno possui uma matrícula ativa no momento da listagem (usar um campo do tipo `VIRTUAL` no Sequelize é uma boa).
-2. Adicione um campo boolean `true/false` na listagem de matrículas indicando se a matrícula está ativa ou não, ou seja, se a data de término é posterior à atual e a data de início inferior (utilize um campo `VIRTUAL`).
-3. Permita que a listagem de alunos (`/users`) seja filtrada por nome recebendo um Query Parameter `?q=Diego` e buscando no banco usuários com esse filtro (utilize o operador `like`). Caso o parâmetro não seja passado, retorne todos usuários;
+1. Adicione um campo boolean `true/false` na listagem de matrículas indicando se a matrícula está ativa ou não, ou seja, se a data de término é posterior à atual e a data de início inferior (utilize um campo `VIRTUAL`).
+2. Permita que a listagem de alunos (`/users`) seja filtrada por nome recebendo um Query Parameter `?q=Diego` e buscando no banco usuários com esse filtro (utilize o operador `like`). Caso o parâmetro não seja passado, retorne todos usuários;
 
 ### Informações importantes
 
