@@ -6,6 +6,10 @@
   Desafio 9: Gympoint, front-end web
 </h3>
 
+<h4 align="center">
+  Etapa 3/4 do Desafio Final
+</h4>
+
 <blockquote align="center">“Mude você e todo o resto mudará naturalmente”!</blockquote>
 
 <p align="center">
