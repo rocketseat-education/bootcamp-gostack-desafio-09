@@ -61,6 +61,7 @@ Antes de iniciar a parte web, **adicione as seguintes funcionalidades no back-en
 
 1. Adicione paginação no front-end e back-end para todas listagens;
 2. Utilize máscaras para o input de CEP;
+3. Crie um filtro para visualizar apenas as entregas com problemas na listagem de encomendas.
 
 ## 🎨 Layout
 
